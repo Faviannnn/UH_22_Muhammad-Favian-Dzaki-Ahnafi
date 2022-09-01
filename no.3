@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nilai = prompt("Inputkan nilai score:");
+        var grade = "";
+
+        if(nilai >= 90) grade = "A"
+        else if(nilai >= 89) grade = "B"
+        else if(nilai >= 70) grade = "C"
+        else if(nilai >= 69) grade = "D"
+        else if(nilai <= 60) grade = "E"
+
+        document.write(`<p>Anda mendapatkan nilai: ${grade}</p>`);
+    </script>
+</body>
+</html>
